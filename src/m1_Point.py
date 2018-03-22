@@ -48,6 +48,8 @@ def main():
 
 
 class Point(object):
+    """A point in 2-D space"""
+
     def __init__(self, x, y):
         self.x = x
         self.init_x = x
